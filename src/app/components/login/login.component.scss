@@ -1,0 +1,40 @@
+.outer{
+    height:100vh;
+    background-color: #f0ffff ;
+}
+.panel-heading{
+    text-align:center;
+    margin-bottom:10 px;
+}
+.form-inline label{
+    padding-left: 10px;
+    margin:0;
+    
+}
+.btn{
+    margin-top:20px;
+    border-radius:15px;
+
+}
+.panel{
+    min-height: 300px;
+    border-radius:12px;
+    margin-top:100px;
+}
+.input-field{
+    border-radius: 5px;
+    padding:5px;
+    display: flex;
+    align-items: center;
+    cursor:pointer;
+    
+}
+.input-field.error{
+    border:1px solid red;
+    color: red;
+
+}
+input[type='text'],
+input[type='password']{
+    width:100%;
+}
